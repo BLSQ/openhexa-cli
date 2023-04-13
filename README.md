@@ -67,6 +67,14 @@ We appreciate and welcome any contributions to the openhexa.cli project! To cont
 3. Make your changes and write tests if necessary
 4. Submit a pull request against the main branch
 
+Once you have cloned the repository in local, you can install dependencies with the command:
+
+```bash
+pip install ".[dev]" # To just install deps
+pip install -e ".[dev]" # To also install the leb as editable
+
+```
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.

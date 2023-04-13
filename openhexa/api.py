@@ -1,13 +1,15 @@
+import base64
 import configparser
-import click
-import sys
-import os
+import importlib
 import io
-import requests
+import os
+import sys
 import typing
 from zipfile import ZipFile
-import base64
-import importlib
+
+import click
+import requests
+
 from . import __version__
 
 CONFIGFILE_PATH = os.path.expanduser("~") + "/.openhexa.ini"

@@ -1,18 +1,20 @@
-import click
-import sys
 import os
+import sys
+
+import click
+
+from . import __version__
 from .api import (
-    open_config,
-    save_config,
-    get_workspace,
-    get_pipelines,
-    get_pipeline,
     create_pipeline,
+    get_pipeline,
+    get_pipelines,
+    get_workspace,
     import_pipeline,
     is_debug,
+    open_config,
+    save_config,
     upload_pipeline,
 )
-from . import __version__
 
 
 @click.group()
